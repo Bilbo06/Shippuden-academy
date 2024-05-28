@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Math</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Naruto Math</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#courses">Cours</a></li>
+                <li><a href="#exercises">Exercices</a></li>
+                <li><a href="#challenges">Défis</a></li>
+                <li><a href="#login">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bienvenue sur Naruto Math</h2>
+            <p>Motivez-vous avec les mathématiques à travers l'univers de Naruto !</p>
+        </section>
+        <section id="courses">
+            <h2>Cours</h2>
+            <div id="courses-content"></div>
+        </section>
+        <section id="exercises">
+            <h2>Exercices</h2>
+            <div id="exercises-content"></div>
+        </section>
+        <section id="challenges">
+            <h2>Défis</h2>
+            <div id="challenges-content"></div>
+        </section>
+        <section id="login">
+            <h2>Connexion</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Nom d'utilisateur">
+                <input type="password" id="password" placeholder="Mot de passe">
+                <button type="button" onclick="login()">Connexion</button>
+            </form>
+            <p id="login-message"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Naruto Math. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
